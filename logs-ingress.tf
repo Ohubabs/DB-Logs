@@ -6,7 +6,7 @@
     name = "logs-ingress"
     namespace = "monitor"
     annotations = {
-        "cert-manager.io/cluster-issuer" = "monitor-issuer"
+        "cert-manager.io/cluster-issuer" = "logs-issuer"
   }
   }
   spec {
